@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/chat-gk/static/css/main.7f31b431.css",
-    "main.js": "/chat-gk/static/js/main.199cae00.js",
+    "main.js": "/chat-gk/static/js/main.0b961363.js",
     "static/js/453.109f33ef.chunk.js": "/chat-gk/static/js/453.109f33ef.chunk.js",
     "static/media/x9ITND8x6pXRaBW5v7tXkjtRdR02.jpg": "/chat-gk/static/media/x9ITND8x6pXRaBW5v7tXkjtRdR02.79a667cf1f3dc1d6d3ff.jpg",
     "static/media/GnjGxfjcsxXhfwLacneO5lfV4XR2.jpg": "/chat-gk/static/media/GnjGxfjcsxXhfwLacneO5lfV4XR2.13978c57cd05497cda0e.jpg",
     "index.html": "/chat-gk/index.html",
     "main.7f31b431.css.map": "/chat-gk/static/css/main.7f31b431.css.map",
-    "main.199cae00.js.map": "/chat-gk/static/js/main.199cae00.js.map",
+    "main.0b961363.js.map": "/chat-gk/static/js/main.0b961363.js.map",
     "453.109f33ef.chunk.js.map": "/chat-gk/static/js/453.109f33ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f31b431.css",
-    "static/js/main.199cae00.js"
+    "static/js/main.0b961363.js"
   ]
 }
