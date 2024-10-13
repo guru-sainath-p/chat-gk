@@ -13,13 +13,7 @@ import SignOut from './components/SignOut/SignOut';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD4KIOUdZfHRVEcLsQNCRuuEVXZDavE9Xs",
-  authDomain: "chat-app-d4497.firebaseapp.com",
-  projectId: "chat-app-d4497",
-  storageBucket: "chat-app-d4497.appspot.com",
-  messagingSenderId: "598172773097",
-  appId: "1:598172773097:web:ee967af7b6773e9e81de78",
-  measurementId: "G-GFYC364MZ1"
+  //your credentials
 };
 
 const app = initializeApp(firebaseConfig);
