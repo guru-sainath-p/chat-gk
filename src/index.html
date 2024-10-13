@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Notification Button</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Centered Button -->
+  <button onclick="sendNotification()">Click Me!</button>
+
+  <!-- JavaScript for Notification Logic -->
+  <script>
+    function sendNotification() {
+      // Check if browser supports notifications
+      if (!("Notification" in window)) {
+        alert("This browser does not support desktop notifications.");
+      }
+      // Check if permission is already granted
+      else if (Notification.permission === "granted") {
+        new Notification("Hello! This is a notification.");
+      }
+      // If permission is not granted, request it
+      else if (Notification.permission !== "denied") {
+        Notification.requestPermission().then((permission) => {
+          if (permission === "granted") {
+            new Notification("Hello! This is a notification.");
+          }
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>
